@@ -1,0 +1,21 @@
+.pip-button {
+    z-index: 2147483647; /* maximum z-index */
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    display: block !important;
+    position: absolute !important;
+}
+
+.pip-button:hover {
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.pip-icon {
+    pointer-events: none;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 50%;
+    top: 48%;
+    transform: translate(-50%, -50%);
+}

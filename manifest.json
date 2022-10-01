@@ -1,0 +1,14 @@
+{
+    "name": "PiP Button",
+    "description": "Adds a Picture-in-Picture button for every video.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["activeTab", "declarativeContent"],
+    "content_scripts": [
+        {
+            "matches": ["http://*/*", "https://*/*"],
+            "js": ["src/core.js"],
+            "css": ["src/core.css"]
+        }
+    ]
+}
