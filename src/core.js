@@ -1,6 +1,5 @@
-const RANDOM_STR = (Math.random() + 1).toString(36).substring(2);
-const BUTTON_CLASS = "pip-button-" + RANDOM_STR;
-const PIP_ICON_CLASS = "pip-icon-" + RANDOM_STR;
+const BUTTON_CLASS = "pip-button-u5a6hy1eu";
+const PIP_ICON_CLASS = "pip-icon-u5a6hy1eu";
 const BUTTON_RADIUS = 40;
 const BUTTON_PADDING = 15;
 const BUTTON_TIMEOUT_MS = 3000;

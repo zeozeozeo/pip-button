@@ -1,4 +1,4 @@
-.pip-button {
+.pip-button-u5a6hy1eu {
     z-index: 2147483647; /* maximum z-index */
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 50%;
@@ -6,11 +6,11 @@
     position: absolute !important;
 }
 
-.pip-button:hover {
+.pip-button-u5a6hy1eu:hover {
     background-color: rgba(0, 0, 0, 0.85);
 }
 
-.pip-icon {
+.pip-icon-u5a6hy1eu {
     pointer-events: none;
     width: 25px;
     height: 25px;
